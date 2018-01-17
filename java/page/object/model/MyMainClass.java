@@ -24,9 +24,9 @@ public class MyMainClass
 	WebDriver driver;
 	ExtentTest test;
 	ExtentReports extent;
-	String phoneNumber="1010109935";
+	String phoneNumber="9810109980";
 	String passwordtext="test@123";
-	String emailText="saurab16458@gmail.com";
+	String emailText="saura58@gmail.com";
 	
 	
 
