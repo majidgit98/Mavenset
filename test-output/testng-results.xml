@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72563" started-at="2018-01-17T03:08:25Z" finished-at="2018-01-17T03:09:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72563" started-at="2018-01-17T03:08:25Z" finished-at="2018-01-17T03:09:37Z">
+      <class name="page.object.model.MyMainClass">
+        <test-method status="PASS" signature="setup()[pri:0, instance:page.object.model.MyMainClass@968a59]" name="setup" is-config="true" duration-ms="25822" started-at="2018-01-17T08:38:25Z" finished-at="2018-01-17T08:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp()[pri:1, instance:page.object.model.MyMainClass@968a59]" name="signUp" duration-ms="33857" started-at="2018-01-17T08:38:51Z" finished-at="2018-01-17T08:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="login()[pri:2, instance:page.object.model.MyMainClass@968a59]" name="login" duration-ms="8629" started-at="2018-01-17T08:39:25Z" finished-at="2018-01-17T08:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="product()[pri:3, instance:page.object.model.MyMainClass@968a59]" name="product" duration-ms="4" started-at="2018-01-17T08:39:33Z" finished-at="2018-01-17T08:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:page.object.model.MyMainClass@968a59]" name="teardown" is-config="true" duration-ms="4112" started-at="2018-01-17T08:39:33Z" finished-at="2018-01-17T08:39:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- page.object.model.MyMainClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
