@@ -48,7 +48,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jan 17, 2018 09:03:01 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Jan 18, 2018 09:24:29 AM</span>
 				</a>
 			</li>
 			<li>
@@ -74,6 +74,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -134,10 +135,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='57.143%'><span class='strong'>4</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='44.444%'><span class='strong'>4</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='42.857%'>3</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='55.556%'>5</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -149,10 +150,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='65.789%'><span class='strong'>50</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='63.265%'><span class='strong'>62</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='6.579%'>5</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='27.632%'>21</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='9.184%'>9</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='27.551%'>27</span> others
 				</div>
 			</div>
 		</div>
@@ -742,7 +743,7 @@
 <div class='test-time-info'>
 	<span class='label start-time'>Jan 17, 2018 09:03:02 AM</span>
 	<span class='label end-time'>Jan 17, 2018 09:03:48 AM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 45s+272ms</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 46s+0ms</span>
 </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
@@ -825,6 +826,196 @@
 							</ul>
 					</div>
 				</li>
+				
+				
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='8'>
+					<div class='test-heading'>
+						<span class='test-name'>Tracko regression</span>
+						<span class='test-time'>Jan 18, 2018 08:47:03 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 18, 2018 08:47:03 AM</span>
+	<span class='label end-time'>Jan 18, 2018 08:49:02 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 59s+0ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Regression</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>SaurabDey</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:47:03 AM</td>
+					<td class='step-details'>Starting with Automation</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:47:31 AM</td>
+					<td class='step-details'>Our browser got initiated</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:48:05 AM</td>
+					<td class='step-details'>I am in Setup Method</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:48:07 AM</td>
+					<td class='step-details'>My URL launched succssfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:48:07 AM</td>
+					<td class='step-details'>Starting with SignUp Process</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:48:07 AM</td>
+					<td class='step-details'>signupFunction()--I am in SignUp Process</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>8:48:51 AM</td>
+					<td class='step-details'>signupFunction()--Failed SignUp Process</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:48:51 AM</td>
+					<td class='step-details'>SuccessFully executed SignUp Process</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>8:48:51 AM</td>
+					<td class='step-details'>Starting with Login Process</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>8:49:02 AM</td>
+					<td class='step-details'>Something went wrong in Login Process<img data-featherlight="D:\Work\Mavenset\Screens\screenshot3.png.png" width="10%" src="D:\Work\Mavenset\Screens\screenshot3.png.png" data-src="D:\Work\Mavenset\Screens\screenshot3.png.png"></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>8:49:02 AM</td>
+					<td class='step-details'>End of execution</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\Work\Mavenset\Screens\screenshot2.png.png' width='10%' src='D:\Work\Mavenset\Screens\screenshot2.png.png' data-src='D:\Work\Mavenset\Screens\screenshot2.png.png'></li>
+							</ul>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='9'>
+					<div class='test-heading'>
+						<span class='test-name'>Tracko regression</span>
+						<span class='test-time'>Jan 18, 2018 09:24:31 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Jan 18, 2018 09:24:31 AM</span>
+	<span class='label end-time'>Jan 18, 2018 09:26:09 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 1m 38s+869ms</span>
+</div>
+	<div class='test-attributes'>
+			<div class='category-list'>
+				<span class='category label white-text'>Regression</span>
+			</div>
+			<div class='author-list'>
+				<span class='author label white-text'>SaurabDey</span>
+			</div>
+	</div>
+	<div class='test-steps'>
+		<table class='bordered table-results'>
+			<thead>
+				<tr>
+					<th>Status</th>
+					<th>Timestamp</th>
+					<th>Details</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:24:31 AM</td>
+					<td class='step-details'>Starting with Automation</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:25:01 AM</td>
+					<td class='step-details'>Our browser got initiated</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:25:21 AM</td>
+					<td class='step-details'>I am in Setup Method</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:25:25 AM</td>
+					<td class='step-details'>My URL launched succssfully</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:25:25 AM</td>
+					<td class='step-details'>Starting with SignUp Process</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:25:26 AM</td>
+					<td class='step-details'>signupFunction()--I am in SignUp Process</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>9:25:58 AM</td>
+					<td class='step-details'>signupFunction()--Failed SignUp Process</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:25:58 AM</td>
+					<td class='step-details'>SuccessFully executed SignUp Process</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>9:25:58 AM</td>
+					<td class='step-details'>Starting with Login Process</td>
+				</tr>
+				<tr class='log' status='fail'>
+					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+					<td class='timestamp'>9:26:09 AM</td>
+					<td class='step-details'>Something went wrong in Login Process<img data-featherlight='D:\Work\Mavenset\Screens\screenshot3.png.png' width='10%' src='D:\Work\Mavenset\Screens\screenshot3.png.png' data-src='D:\Work\Mavenset\Screens\screenshot3.png.png'></td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>9:26:09 AM</td>
+					<td class='step-details'>End of execution</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+							<ul class='screenshots'>
+								<li><img data-featherlight='D:\Work\Mavenset\Screens\screenshot2.png.png' width='10%' src='D:\Work\Mavenset\Screens\screenshot2.png.png' data-src='D:\Work\Mavenset\Screens\screenshot2.png.png'></li>
+							</ul>
+					</div>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -879,13 +1070,13 @@
 					<div class='category-heading'>
 						<span class='category-name'>Regression</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label fail'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
 							
+							<span class='label red lighten-1 white-text'>Failed: 1</span>
 							
 						</div>
 					
@@ -900,9 +1091,9 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jan 17, 2018 09:03:02 AM</td>
-										<td class='linked' test-id='7'>Tracko regression</td>
-										<td><span class='test-status pass'>pass</span></td>
+										<td>Jan 18, 2018 09:24:31 AM</td>
+										<td class='linked' test-id='9'>Tracko regression</td>
+										<td><span class='test-status fail'>fail</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -949,13 +1140,13 @@
                             <div class='author-heading'>
                                 <span class='author-name'>SaurabDey</span>
                                 <span class='author-status right'>
-                                        <span class='label pass'>1</span>
+                                        <span class='label fail'>1</span>
 						        </span>
                             </div>
                             <div class='author-content hide'>
                                 <div class='author-status-counts'>
-                                    <span class='label green accent-4 white-text'>Passed: 1</span>
                                     
+                                    <span class='label red lighten-1 white-text'>Failed: 1</span>
                                     
                                 </div>
 
@@ -970,9 +1161,9 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Jan 17, 2018 09:03:02 AM</td>
-                                                <td class='linked' test-id='7'>Tracko regression</td>
-                                                <td><span class='test-status pass'>pass</span></td>
+                                                <td>Jan 18, 2018 09:24:31 AM</td>
+                                                <td class='linked' test-id='9'>Tracko regression</td>
+                                                <td><span class='test-status fail'>fail</span></td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -999,31 +1190,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>7</div>
+					<div class='panel-lead'>9</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>76</div>
+					<div class='panel-lead'>98</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jan 17, 2018 09:03:01 AM</div>
+					<div class='panel-lead'>Jan 18, 2018 09:24:29 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jan 17, 2018 09:03:49 AM</div>
+			 		<div class='panel-lead'>Jan 18, 2018 09:26:11 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>47,328ms</div>
+					<div class='panel-lead'>102,103ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -1040,11 +1231,11 @@
 						</tr>
 						<tr>
 							<td>Regression</td>
+							<td>0</td>
 							<td>1</td>
 							<td>0</td>
-							<td>0</td>
 							<td>
-									100%
+									0%
 							</td>
 						</tr>
 					</table>
@@ -1061,21 +1252,21 @@
 		<script>
 			var statusGroup = {
 				passParent: 4,
-				failParent: 3,
+				failParent: 5,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 3,
+				exceptionsParent: 5,
 				
-				passChild: 50,
-				failChild: 5,
+				passChild: 62,
+				failChild: 9,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 21,
-				exceptionsChild: 5,
+				infoChild: 27,
+				exceptionsChild: 9,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
